@@ -94,3 +94,35 @@ footer hr{
         flex-direction: row;        
     }
 }
+
+@media only screen and (min-width: 800px) {
+    nav #logo{
+        width: 200px;
+    }
+    nav{
+        padding: 2em;
+        justify-content: space-around;
+    }
+    nav ul{
+        list-style: none;
+        width: 80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav ul li{margin: 0 0.5em}
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+
+    }
+    nav ul li a:hover{
+        color: var(--main-orange);
+    }
+
+    #categories{
+        flex-wrap: wrap;
+        flex-direction: row;        
+    }
+}
